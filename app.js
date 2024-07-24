@@ -1,6 +1,6 @@
 alert("Seja bem vindo(a) ao jogo do número secreto!!");
 //Gerando número aleatório com o random
-let limiteNumeroSecreto = 100;
+let limiteNumeroSecreto = 10;
 let numeroSecreto = Math.round(Math.random() * limiteNumeroSecreto+1);
 console.log(numeroSecreto);
 // Mostra uma mensagem no console   
